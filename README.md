@@ -2,11 +2,11 @@
 
 We built a weather station around an ESP32-C3, a BME280, and two wind sensors we designed and assembled ourselves. It measures temperature, humidity, pressure, wind direction, and wind speed, writes readings to an SD card, and publishes them over Wi-Fi and MQTT for a live dashboard.
 
+![Smart Weather Station cover image](images/cover-image.png)
+
 I worked on this project with Francisco Ribeiro in 2025. Our work covered the physical wind sensors, their C drivers, a register-level BME280 driver, and the firmware connecting those measurements to storage and the network.
 
-<p align="center">
-  <img src="images/cover.gif" alt="The assembled weather station outdoors, with its cup anemometer turning beside the BME280 housing and wind vane" width="500">
-</p>
+![The assembled weather station outdoors, with its cup anemometer turning beside the BME280 housing and wind vane](images/cover.gif)
 
 *The station in operation: anemometer on the left, BME280 housing in the middle, and wind vane on the right.*
 
